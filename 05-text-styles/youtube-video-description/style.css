@@ -1,0 +1,50 @@
+
+.title{
+    margin: 0px;
+    font-family: arial; /* the font */
+    font-size: 20px;    /* the size of the text */
+    font-weight: bold;  /* boldness of the text */
+    width: 300px;       /* width of the line */
+    line-height: 25px;  /* space between the lines (of the same text) */
+} 
+
+p{
+    font-family: arial;
+    margin: 0px;
+}
+.status{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+
+}
+
+.author{
+    margin: 30px 0px;
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+
+    
+}
+
+.text{
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+    width: 300px;
+}
+
+img{
+    margin-top: 300px;
+    width: 40px;
+}
+
+.apple-text{
+    margin-top: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: rgb(227, 65, 64);
+    color: white;
+
+}
+.shop-now-link:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+.subscribe-button{
+    background-color: rgb(211, 64, 64);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 110px;
+    border: none;
+    margin: 10px;
+    cursor: pointer; /* it makes the cursor turn into a pointer when it's over the button*/
+}
+.subscribe-button:hover{
+    background-color: rgb(226, 17, 17);
+}
+
+.join-button{
+    background-color: white;
+    border-color: rgb(29 155 240);
+    border-style: solid;
+    border-width: 1.5px;
+    color: rgb(29 155 240);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+    cursor: pointer; 
+   
+}                       
+.join-button:hover{ /*this changes the item when the mouse hovers over it*/
+    background-color: rgb(29 155 240);
+    color: white;
+}
+.join-button:active{ /*this changes the item when it's clicked*/
+    background-color: blue;
+    border-color: blue;
+}
+
+.tweet-button{
+    background-color: rgb(29 155 240);
+    border:none;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: box-shadow 0.15s;
+    cursor: pointer; /* it makes the cursor turn into a pointer when it's over the button*/
+}
+.tweet-button:hover{
+    box-shadow: 0px 2px 0px rgba(0,0,0, 0.2); /*Adds a shadows to the item, it receives 3 values: horizonal, vertical and blur
+                                                  the color is usually black rgba(0,0,0) and a low opacity rgba(0,0,0,0.5)*/
+}
+
+.request-button{
+    background-color: black;
+    border:none;
+    color: white;
+    height: 30px;
+    width: 110px;
+    margin: 10px;
+    transition: opacity 0.15s;
+    cursor: pointer; /* it makes the cursor turn into a pointer when it's over the button*/
+}
+.request-button:hover{
+    opacity: 0.7;
+}
+
+.add-to-cart-button{
+    background-color: rgb(255,216,20);
+    border:none;
+    color: black;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: background-color 0.15s;
+    cursor: pointer; /* it makes the cursor turn into a pointer when it's over the button*/
+}
+.add-to-cart-button:hover{
+    background-color: rgb(235, 197, 11);
+}
+
+.get-started-button{
+    background-color: rgb(121,82 ,197);
+    border:none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.15s;
+    cursor: pointer; /* it makes the cursor turn into a pointer when it's over the button*/
+}
+.get-started-button:hover{
+    background-color: rgb(87, 57, 146);
+}
+
+.download-button{
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(108, 117, 125); ;
+    color: rgb(108, 117, 125);
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.15s, color 0.15s;
+    cursor: pointer; /* it makes the cursor turn into a pointer when it's over the button*/
+}
+.download-button:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}

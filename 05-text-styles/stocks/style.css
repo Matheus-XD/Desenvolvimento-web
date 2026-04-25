@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 10px;
+    padding: 0;
+}
+.price{
+    font-size: 40px;
+}
+.money{
+    font-size: 25px;
+    color: gray;
+}
+
+.percentage{
+    font-size: 20px;
+    color: green;
+}
+
+.float{
+    font-size: 20px;
+    color: gray;
+}
+.loss{
+    color: red;
+}
