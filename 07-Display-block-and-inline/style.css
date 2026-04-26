@@ -1,0 +1,33 @@
+img{
+    margin: 5px ;
+}
+
+.text-1{
+    background-color: yellow;
+    /*as a pattern, the tag <p> is an block element, which means it takes up the whole line and doesn't allow any other element 
+    to be placed in the same line. It's like a line break <br> from html */
+}
+.text-2{
+    background-color: green;
+    display: inline-block;
+    /*When we add display:inline-block; it changes the width of the tag just to the space that its content actually takes up.
+    and allows other elements to be placed in front or before it */
+}
+.text-3{
+    background-color: red;
+    display: inline-block;
+
+}
+
+.image-1{
+    width: 300px;
+    padding-right: 100%;
+    background-color: blue;
+    display: block;
+    
+    /*as for the tag <img> is the oppisite, it's for defaut an inline element, so when we set display: black; 
+    it breaks the line (just like a <br> in html)*/
+}
+.image-2{
+    width: 300px;
+}

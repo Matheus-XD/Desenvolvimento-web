@@ -1,0 +1,42 @@
+.google-logo{
+    width: 300px;
+    display: block;
+    margin-left: 400px;
+    align-items: center;
+}
+.search-tab{
+    margin-left: 200px;
+    padding: 10px;
+    font-size: 25px;
+    width: 700px;
+    border-radius: 25px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.name{
+    margin: 4px 2px;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+}
+.email{
+    display: block;
+    margin: 4px 2px;
+    padding: 10px;
+    font-size: 20px;
+    width: 434px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.sign-up-button{
+    width: 460px;
+    font-size: 20px;
+    padding: 15px;
+    border-style: none;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
