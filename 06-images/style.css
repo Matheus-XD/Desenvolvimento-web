@@ -1,0 +1,42 @@
+img{
+   width: 300px; 
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 10px;
+}
+
+.image-1{
+    width: 300px;
+    /*When only the width or height is set, the width and height is set proportionally to the size of the image*/
+}
+
+.image-2{
+    width: 300px;
+    height: 300px;
+    /*when it's set a width and height for the image, the image will be stretched to fit in the set space*/
+}
+
+.image-3{
+   width: 300px;
+   height: 300px;
+   object-fit: contain;
+   /*When it's set a fixed width and height, we can use the object-fit: contain; to put the entire image inside
+   that space without changing its shape or cutting any part off, but as a consequence some space may be left blank*/
+}
+
+.image-4{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+   /*When it's set a fixed width and height, we can use object-fit: cover; to fit the image filling all
+   the space without changing its shape, but as a consequence, the image may have parts cut  off*/
+}
+
+.image-5{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 160px;
+
+}
