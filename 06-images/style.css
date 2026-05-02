@@ -38,5 +38,6 @@ img{
     height: 300px;
     object-fit: cover;
     border-radius: 160px;
+    object-position: center;
 
 }

@@ -1,0 +1,82 @@
+p{
+ margin: 0;
+}
+
+.tweet-bar{
+    width: 1180px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.tweet-bar-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+.tweet-bar-placeholder-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 800px;
+    color: grey;
+    border: none;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.tweet-bar-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(29 155 240);
+    transition: box-shadow 0.15s, background-color 0.15s;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+.tweet-bar-button:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.2);
+    background-color: rgb(27, 147, 226);
+}
+.profiles{
+    width: 1180px;
+    height: 1000px;
+
+}
+.profile{
+
+    display: inline-block;
+    margin: 20px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-photo{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;  
+    
+}
+.profile-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 10px 20px;
+}
+.mutual-friends{
+    margin: 10px 20px;
+    font-size: 30px;
+}
+.add-friend-button{
+    margin: 10px 20px;
+    padding: 20px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(34, 146, 216);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
