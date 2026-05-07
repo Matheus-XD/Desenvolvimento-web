@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox practice</title>
+    <style>
+        .flexbox{
+            margin-top: 20px;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            border-style: solid; 
+            border-width: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Displayflex 1</h1>
+    <p>Display flex</p>
+    <div class="flexbox">
+        <div style="background-color: lightblue;">div 1</div>
+        <div style="background-color: lightcoral;">div 2</div>
+    </div>
+   
+    <div class="flexbox">
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; flex: 1;">flex: 1</div> <!-- flex: 1 is the same of 1fr in grid-->
+    </div>
+
+    <div class="flexbox">
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; flex: 1;">flex 1</div>
+        <div style="background-color: lightblue; flex: 1;">flex 1</div>    
+    </div>
+
+    <div class="flexbox">
+        <div style="background-color: lightcoral; flex: 1;">flex 1</div>
+        <div style="background-color: lightblue; flex: 1;">flex 1</div>
+        <div style="background-color: lightcoral; flex: 2;">flex 2</div>
+    </div>
+
+    <h1>justify-content</h1>
+    <p>Start (standard)</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; justify-content: start;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>center</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; justify-content: center;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>end</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; justify-content: end;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="flexbox" style="justify-content: space-between;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; justify-content: space-around;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>space-evenly (same as space-around but the spaces are equaly devided)</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; justify-content: space-evenly;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <h1>Align-items</h1>
+    <p>stretch (standard - the items take up the whole vertical space) </p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; align-items: stretch;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>start (the items take up only the they need to, and are placed at the top) </p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; align-items: start;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>center</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; align-items: center;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+    <p>end</p>
+    <div class="flexbox" style="border-style: solid; border-width: 1px; align-items: end;">
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightcoral; width: 100px;">100px</div>
+    </div>
+
+
+
+
+</body>
+</html>

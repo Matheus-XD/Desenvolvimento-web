@@ -7,38 +7,61 @@
     <style>
 
         .display-1{
+            margin-top: 10px;
             display: grid;
             grid-template-columns: 200px 1fr;
+            border-style: solid;
+            border-width: 1px;
 
         }
         .display-2{
+            margin-top: 10px;
             display: grid;
             grid-template-columns: 100px 1fr 100px;
+            border-style: solid;
+            border-width: 1px;
         }
         .display-3{
+            margin-top: 10px;
             display: grid;
-            grid-template-columns:  1fr 1fr 1fr;           
+            grid-template-columns:  100px 1fr 2fr;
+            border-style: solid;
+            border-width: 1px;       
+        }
+        .display-4{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            border-style: solid;
+            border-width: 1px;
         }
     </style>
 </head>
 <body>
-
-    <h1>display 1</h1>
+    <h1>Grid</h1>
+    
+    <p>200px + 1fr (rest of the free space)</p>
     <div class="display-1">
-        <div style="background-color: lightblue; height: 200px;">div 1</div>
-        <div style="background-color: lightcoral; height: 200px;">div 2</div>
+        <div style="background-color: lightblue; height: 200px;">200px</div>
+        <div style="background-color: lightcoral; height: 200px;">1fr</div>
     </div>
 
-    <h1>display 2</h1>
+    <p>100px + 1fr + 100px</p>
     <div class="display-2">
-        <div style="background-color: lightblue; height: 200px;">div 1</div>
-        <div style="background-color: lightcoral; height: 200px;">div 2</div>
-        <div style="background-color: lightblue; height: 200px;">div 3</div>
-
+        <div style="background-color: lightblue; height: 200px;">100px</div>
+        <div style="background-color: lightcoral; height: 200px;">1fr</div>
+        <div style="background-color: lightblue; height: 200px;">100px</div>
     </div>
 
-    <h1>display 3</h1>
-    <div class=" display-3">
+    <p>100px + 1fr (one-third of the free space) + 2fr (two-thrids of the free space)</p>
+    <div class="display-3">
+        <div style="background-color: lightblue; height: 200px;">100px</div>
+        <div style="background-color: lightcoral; height: 200px;">1fr</div>
+        <div style="background-color: lightblue; height: 200px;">2fr</div>
+    </div>
+
+    <p>1fr + 1fr + 1fr (each one is one third of the free space)</p>
+    <div class=" display-4">
         <div style="background-color: lightblue; height: 200px;">div 1</div>
         <div style="background-color: lightcoral; height: 200px;">div 2</div>
         <div style="background-color: lightblue; height: 200px ">div 3</div>

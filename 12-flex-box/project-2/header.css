@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+}
+.header{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(156, 103, 187);
+    justify-content: space-between;
+}
+
+.home{
+padding: 10px;
+font-size: 20px;
+font-weight: 600;
+color: white;
+background-color: transparent;
+border-style: none;
+}
+.search{
+margin: 0 80px;
+padding: 10px;
+font-size: 20px;
+width: 100%;
+max-width: 500px;
+min-width: 300px;
+border-style: none;
+border-radius: 20px;
+
+
+}
+.download{
+
+padding: 10px;
+font-size: 20px;
+color: white;
+background-color: transparent;
+border-style: solid;
+border-color: white;
+border-radius: 5px;
+
+}

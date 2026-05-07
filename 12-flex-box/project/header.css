@@ -1,0 +1,50 @@
+        body{
+            margin: 0;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .header{
+            height: 60px;
+            align-items: center;
+            display: flex;
+            flex: row;
+            justify-content: space-between;
+        }
+        .header img{
+            height: 30px;
+        }       
+        
+        .header-left-section img{
+            margin-left: 15px;
+        }
+        .header-middle-section{
+            width: 500px;
+            margin: 0 40px;
+            display: flex;
+            flex: row;
+            align-items: center;
+            justify-content: center;  
+        }
+
+        .search-bar{
+            height: 30px;
+            flex: 1;
+            max-width: 500px;
+        }
+        .header-right-section{
+            display: flex;
+            flex: row;
+            
+        }
+        .header-right-section img{
+            margin-right: 30px;
+        }
+        .header-profile-picture{
+            border-radius: 15px;
+            height: 30px;
+            width: 30px;
+            object-fit: cover;
+        }
