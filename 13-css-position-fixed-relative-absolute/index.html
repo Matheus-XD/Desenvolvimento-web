@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            margin-bottom: 1000px;
+            padding-top: 50px;
+            padding-left: 50px; 
+        }
+        .header{
+            
+            background-color: black;
+            color: white;
+            position: fixed;
+            height: 50px;
+            top: 0;
+            left: 0;
+            right: 0px;
+            z-index: 100;
+        }
+
+        .side-bar{
+            background-color: aquamarine;
+            position: fixed;
+            top: 50px;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+        }
+        .div-1{
+            background-color: lightcoral;
+            height: 200px;
+            width: 200px;
+        }
+        .div-2{
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            position: relative;
+        }
+
+        .minutes{
+            background-color: black;
+            color: white;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+    <div class="side-bar">
+        sidebar
+    </div>
+    <div class="div-1">div 1</div>
+    <div class="div-2">
+        div 2
+        <div class="minutes">5:00</div>
+    </div>
+    
+</body>
+</html>
