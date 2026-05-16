@@ -1,89 +1,181 @@
-# 🌐 Desenvolvimento Web
+# HTML & CSS Studies
 
-Este repositório reúne meus estudos, práticas e projetos em Desenvolvimento Web, com foco na construção de uma base sólida e na aplicação de boas práticas utilizadas no mercado.
+Este repositório contém meus estudos e exercícios práticos de **HTML** e **CSS**.
+Aqui organizei diferentes tópicos em pastas separadas, acompanhando minha evolução durante o aprendizado de desenvolvimento web front-end.
 
-O objetivo é documentar minha evolução como desenvolvedor, explorando desde conceitos fundamentais até a criação de aplicações completas.
-
----
-
-## 🎯 Objetivo
-
-Desenvolver competências técnicas em desenvolvimento web, com foco em:
-
-* Construção de interfaces modernas e responsivas
-* Escrita de código limpo, legível e manutenível
-* Resolução de problemas com JavaScript
-* Uso de boas práticas e padrões de desenvolvimento
-* Preparação para atuação profissional como desenvolvedor
+O objetivo deste repositório é servir como um espaço de prática, experimentação e revisão dos principais conceitos de HTML e CSS.
 
 ---
 
-## 🧠 Tecnologias e Conceitos
+# Estrutura do Repositório
 
-* **HTML5** – Estrutura semântica
-* **CSS3** – Layout, Flexbox, Grid e responsividade
-* **JavaScript (ES6+)** – Lógica, DOM e interatividade
-* **Git & GitHub** – Versionamento e controle de código
-* **APIs REST** – Consumo e manipulação de dados
-* **Responsividade** – Mobile-first e design adaptável
-* **Boas práticas** – Organização, performance e acessibilidade
+## 📁 01-html-basics
 
----
+Conceitos básicos de HTML:
 
-## 📂 Estrutura do Repositório
-
-```
-/html-css        → Fundamentos de estrutura e estilo  
-/javascript      → Lógica, algoritmos e manipulação do DOM  
-/projetos        → Projetos práticos e aplicações completas  
-/desafios        → Exercícios de lógica e resolução de problemas  
-/anotacoes       → Documentação e resumos de estudo  
-```
+* Estrutura de páginas
+* Tags principais
+* Parágrafos
+* Títulos
+* Links
+* Botões
+* Imagens
 
 ---
 
-## 🚀 Projetos em Destaque
+## 📁 02-css-basics
 
-Os projetos desenvolvidos neste repositório incluem:
+Fundamentos do CSS:
 
-* Interfaces web responsivas
-* Aplicações interativas com JavaScript
-* Integração com APIs externas
-* Projetos com foco em usabilidade e organização de código
-
-*(Os projetos serão atualizados conforme a evolução dos estudos.)*
-
----
-
-## 📈 Evolução
-
-Este repositório é atualizado continuamente como parte do meu processo de aprendizado e desenvolvimento profissional.
-
-Cada projeto representa um passo na consolidação de habilidades técnicas e na preparação para desafios reais do mercado.
+* Seletores
+* Cores
+* Backgrounds
+* Bordas
+* Estilização básica
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## 📁 03-hovers-transitions-shadows
+
+Efeitos visuais com CSS:
+
+* `:hover`
+* Transições
+* Sombras (`box-shadow` e `text-shadow`)
+* Interações visuais
+
+---
+
+## 📁 04-margin-padding
+
+Estudos sobre espaçamento:
+
+* `margin`
+* `padding`
+* Espaçamento interno e externo
+* Box model
+
+---
+
+## 📁 05-text-styles
+
+Estilização de textos com CSS:
+
+* Fontes
+* Tamanho de texto
+* Peso da fonte
+* Alinhamento
+* Espaçamento entre linhas
+* Decoração de texto
+
+---
+
+## 📁 06-images
+
+Manipulação de imagens:
+
+* Inserção de imagens
+* Ajustes de tamanho
+* `object-fit`
+* Responsividade
+
+---
+
+## 📁 07-display-block-and-inline-block
+
+Tipos de display:
+
+* `block`
+* `inline-block`
+* Diferenças entre elementos
+* Comportamento dos layouts
+
+---
+
+## 📁 08-text-box
+
+Campos de texto e inputs:
+
+* Inputs
+* Textboxes
+* Estilização de formulários
+
+---
+
+## 📁 09-divs
+
+Uso de `divs`:
+
+* Estruturação de páginas
+* Containers
+* Organização de elementos
+
+---
+
+## 📁 10-nested-layout
+
+Layouts aninhados:
+
+* Estruturas compostas
+* Organização de elementos dentro de containers
+* Hierarquia visual
+
+---
+
+## 📁 11-grid
+
+CSS Grid:
+
+* Criação de grids
+* Colunas e linhas
+* Posicionamento de elementos
+* Layouts modernos
+
+---
+
+## 📁 12-flex-box
+
+Flexbox:
+
+* `display: flex`
+* Alinhamento
+* Distribuição de elementos
+* Responsividade com Flexbox
+
+---
+
+## 📁 13-position-fixed-relative-absolute-responsive-design
+
+Posicionamento e responsividade:
+
+* `position: fixed`
+* `relative`
+* `absolute`
+* Conceitos de responsive design
+* Media queries
+
+---
+
+# Objetivo
+
+Este repositório foi criado para:
+
+* Praticar HTML e CSS
+* Consolidar conceitos fundamentais de front-end
+* Registrar minha evolução nos estudos
+* Servir como material de revisão futura
+
+---
+
+# Tecnologias Utilizadas
 
 * HTML5
 * CSS3
-* JavaScript
-* Git
-* GitHub
-* DevTools
 
 ---
 
-## 📌 Próximos Passos
+# Observações
 
-* Aprofundar conhecimentos em JavaScript avançado
-* Aprender frameworks modernos (ex: React)
-* Integrar backend com APIs e banco de dados
-* Desenvolver projetos mais complexos e completos
+Os arquivos presentes neste repositório foram desenvolvidos com fins educacionais e representam exercícios, testes e experimentos realizados durante meus estudos.
 
----
-
-## 🤝 Contato
-
-Sinta-se à vontade para acompanhar minha evolução ou contribuir com sugestões.
 

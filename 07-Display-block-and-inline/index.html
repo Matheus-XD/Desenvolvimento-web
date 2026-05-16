@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        span{
+            color: blue;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <p class="text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p class="text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h1>display block</h1>
+    <p>parágrafos são por padrão <span>display: block;</span>, oque significa que a tag <span>&ltp&gt</span>
+        ocupa todo o espaço horizontal da tela mesmo que o texto não ocupe tudo</p>
+    <p class="text-1">
+        texto 1
+    </p>
+
     <img class="image-1" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
+    
+
+    <h1>Display inline-block</h1>
+    <p>
+        Quando é definido <span>display: inline-block</span> a tag passa a ocupar apenas o espaço necessário 
+        para o item dentro da tag isso fará com que a tag abaixo mova-se para o lado direito (obs: isso apenas acontece
+        se as duas tags forem inline-block, caso contrario a tag com display block ocupará a linha inteira.)
+    </p>
+    <p class="text-2">texto 1</p>
+    <p class="text-3">texto 2</p>
+    <br>
+    
     <img class="image-2" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
     <img class="image-2" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
 </body>

@@ -5,17 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <style>
+        span{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     <h3>image 1</h3>
-    <img class="image-1" src="images/wallpaperswide.com-amazing-landscape-wallpaper-1280x720.jpg" alt="">
+    <p>quando apenas a altura ou largura é especificada a imagem é proporcionalmente redimendionada para o tamanho definido.<br>
+        <span>
+        width: 300px
+        </span>
+    </p>
+    <img class="image-1" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
+
     <h3>image 2</h3>
-    <img class="image-2" src="images/wallpaperswide.com-amazing-landscape-wallpaper-1280x720.jpg" alt="">
+    <p>quando a altura e largura são especificadas, a imagem é redimensionada para esse tamanho podendo ser esticada caso os valores não sejam proporcionais ao tamanho original <br>
+       <span>
+       width: 300px <br>
+       height: 300px
+       </span>
+    </p>
+    <img class="image-2" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
+
     <h3>image 3</h3>
-    <img class="image-3" src="images/wallpaperswide.com-amazing-landscape-wallpaper-1280x720.jpg" alt="">
+    <p>quando a feature <span>object-fit: contain;</span> é usada, ela vai encaixar a imagem dentro da altura e largura definida sem esticar ou cortar nenhuma parte da image <br>
+       <span>
+        width: 300px; <br>
+        height: 300px <br>
+        object-fit: contain;
+       </span></p>
+    <img class="image-3" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
+
     <h3>image 4</h3>
-    <img class="image-4" src="images/wallpaperswide.com-amazing-landscape-wallpaper-1280x720.jpg" alt="">
+    <p>quando a feature <span>object-fit: cover;</span> é usada, a imagem vai preencher todo o espaço definido na altura e largura sem esticar, porém pode ter partes cortadas <br>
+       <span>
+        width: 300px; <br>
+        height: 300px;<br>
+        object-fit: cover;
+       </span></p>
+    <img class="image-4" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
     <h3>image 5</h3>
-    <img class="image-5" src="images/wallpaperswide.com-amazing-landscape-wallpaper-1280x720.jpg" alt="">
+    <p>
+        para a imagem ter as bordas arredondadas é usada a feature <span>border-radios: ;</span> podendo chegar a um circulo total ao definir a border-radious como metade (ou mais) da altura e largura <br>
+        <span>
+            width:300px; <br>
+            height: 300px; <br>
+            border-radios: 150px;
+        </span>
+    </p>
+    <img class="image-5" src="images/photo-1558637845-c8b7ead71a3e.avif" alt="">
 </body>
-</html>
